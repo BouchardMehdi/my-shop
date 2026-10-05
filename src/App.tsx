@@ -1,6 +1,17 @@
+import { useState } from 'react'
+import type { Product } from './types/ecommerce'
 import './App.css'
 
+const demoProduct: Product = {
+  id: 'p1',
+  name: 'Lampe Aria',
+  price: 129,
+  inStock: true,
+}
+
 function App() {
+  const [product, setProduct] = useState<Product | null>(null)
+
   return (
     <div className="app-shell">
       <header className="topbar">
@@ -42,7 +53,32 @@ function App() {
               <span className="sort-label">Sélection du studio <span aria-hidden="true">⌄</span></span>
             </div>
 
-            <div className="product-grid" aria-live="polite" />
+            <div className="product-grid" aria-live="polite">
+              {product === null ? (
+                <button
+                  className="add-button"
+                  type="button"
+                  onClick={() => setProduct(demoProduct)}
+                >
+                  Charger le produit
+                  <span aria-hidden="true">＋</span>
+                </button>
+              ) : (
+                <article className="product-card">
+                  <div className="product-details">
+                    <div className="product-title-row">
+                      <h3>{product.name}</h3>
+                      <span className="product-price">{product.price} €</span>
+                    </div>
+                    <div className="product-actions">
+                      <span className={product.inStock ? 'stock-status' : 'stock-status is-out'}>
+                        <span /> {product.inStock ? 'En stock' : 'Épuisé'}
+                      </span>
+                    </div>
+                  </div>
+                </article>
+              )}
+            </div>
           </section>
 
           <aside className="cart-panel" id="basket" aria-labelledby="cart-title">
