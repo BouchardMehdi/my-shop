@@ -1,0 +1,34 @@
+[
+  {
+    "id": "MM-2048",
+    "customerEmail": "camille.martin@example.fr",
+    "items": [{ "productId": "lampe-aria", "quantity": 1 }],
+    "total": 129,
+    "status": "shipped",
+    "createdAt": "2026-09-28T10:20:00.000Z"
+  },
+  {
+    "id": "MM-2047",
+    "customerEmail": "nora.dubois@example.fr",
+    "items": [{ "productId": "vase-sillage", "quantity": 1 }, { "productId": "tasse-atelier", "quantity": 2 }],
+    "total": 106,
+    "status": "paid",
+    "createdAt": "2026-09-26T14:05:00.000Z"
+  },
+  {
+    "id": "MM-2046",
+    "customerEmail": "leo.bernard@example.fr",
+    "items": [{ "productId": "plaid-nuage", "quantity": 1 }],
+    "total": 89,
+    "status": "pending",
+    "createdAt": "2026-09-24T09:42:00.000Z"
+  },
+  {
+    "id": "MM-2045",
+    "customerEmail": "ines.petit@example.fr",
+    "items": [{ "productId": "plateau-ligne", "quantity": 1 }],
+    "total": 46,
+    "status": "cancelled",
+    "createdAt": "2026-09-21T16:30:00.000Z"
+  }
+]
