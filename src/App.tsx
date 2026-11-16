@@ -1,5 +1,4 @@
-import { lazy, Suspense, useState } from 'react'
-import type { Cart, CartAction } from './types/ecommerce'
+import { lazy, Suspense, useReducer, useState } from 'react'
 import { applyAction } from './types/ecommerce'
 import './App.css'
 
@@ -10,12 +9,8 @@ type View = 'shop' | 'orders'
 
 function App() {
   const [view, setView] = useState<View>('shop')
-  const [cart, setCart] = useState<Cart>({})
+  const [cart, sendCartAction] = useReducer(applyAction, {})
   const itemCount = Object.values(cart).reduce((total, line) => total + line.quantity, 0)
-
-  function sendCartAction(action: CartAction) {
-    setCart((currentCart) => applyAction(currentCart, action))
-  }
 
   return (
     <div className="app-shell">

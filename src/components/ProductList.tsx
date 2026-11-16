@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import type { Product } from '../types/ecommerce'
 import { useFetch } from '../types/ecommerce'
 
@@ -7,7 +8,7 @@ interface ProductListProps {
 
 const euro = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' })
 
-export function ProductList({ onAdd }: ProductListProps) {
+export const ProductList = memo(function ProductList({ onAdd }: ProductListProps) {
   const result = useFetch<Product[]>('/data/products.json')
 
   switch (result.status) {
@@ -56,4 +57,4 @@ export function ProductList({ onAdd }: ProductListProps) {
       return exhaustive
     }
   }
-}
+})

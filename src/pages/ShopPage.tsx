@@ -1,3 +1,4 @@
+import { useCallback } from 'react'
 import { ProductList } from '../components/ProductList'
 import type { Cart, CartAction } from '../types/ecommerce'
 
@@ -15,6 +16,10 @@ function formatProductName(productId: string): string {
 }
 
 export default function ShopPage({ cart, itemCount, onCartAction }: ShopPageProps) {
+  const handleAdd = useCallback((productId: string) => {
+    onCartAction({ type: 'addToCart', productId, quantity: 1 })
+  }, [onCartAction])
+
   return (
     <>
       <section className="intro-band">
@@ -39,7 +44,7 @@ export default function ShopPage({ cart, itemCount, onCartAction }: ShopPageProp
             </div>
             <span className="sort-label">Sélection du studio <span aria-hidden="true">⌄</span></span>
           </div>
-          <ProductList onAdd={(productId) => onCartAction({ type: 'addToCart', productId, quantity: 1 })} />
+          <ProductList onAdd={handleAdd} />
         </section>
 
         <aside className="cart-panel" aria-labelledby="cart-title">
