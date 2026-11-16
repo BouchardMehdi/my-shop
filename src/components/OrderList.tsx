@@ -1,5 +1,5 @@
-import { useFetch } from '../types/ecommerce'
-import type { Order, OrderStatus } from '../types/orders'
+import { useOrders } from '../features/orders/queries'
+import type { OrderStatus } from '../types/orders'
 import { groupOrdersByStatus, labelStatus } from '../types/orders'
 
 const euro = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' })
@@ -7,14 +7,13 @@ const date = new Intl.DateTimeFormat('fr-FR', { day: '2-digit', month: 'long', y
 const orderStatuses: OrderStatus[] = ['pending', 'paid', 'shipped', 'cancelled']
 
 export function OrderList() {
-  const result = useFetch<Order[]>('/data/orders.json')
+  const result = useOrders()
 
   switch (result.status) {
-    case 'idle':
-      return <p className="fetch-message" role="status">Préparation de vos commandes…</p>
-    case 'loading':
+    case 'pending':
       return <p className="fetch-message" role="status">Chargement des commandes…</p>
     case 'success': {
+      if (result.data.length === 0) return <p className="fetch-message">Aucune commande à afficher.</p>
       const byStatus = groupOrdersByStatus(result.data)
       return (
         <div className="orders-content">
@@ -53,7 +52,7 @@ export function OrderList() {
       )
     }
     case 'error':
-      return <p className="fetch-message error-message" role="alert">Impossible de charger les commandes : {result.message}</p>
+      return <p className="fetch-message error-message" role="alert">Impossible de charger les commandes : {result.error.message}</p>
     default: {
       const exhaustive: never = result
       return exhaustive
