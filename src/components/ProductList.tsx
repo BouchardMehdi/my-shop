@@ -13,9 +13,9 @@ export const ProductList = memo(function ProductList({ onAdd }: ProductListProps
 
   switch (result.status) {
     case 'idle':
-      return <p className="fetch-message">Préparation de la sélection…</p>
+      return <p className="fetch-message" role="status">Préparation de la sélection…</p>
     case 'loading':
-      return <p className="fetch-message">Les pièces arrivent…</p>
+      return <p className="fetch-message" role="status">Les pièces arrivent…</p>
     case 'success':
       return (
 
@@ -71,7 +71,7 @@ export const ProductList = memo(function ProductList({ onAdd }: ProductListProps
 
       )
     case 'error':
-      return <p className="fetch-message error-message">Impossible de charger la sélection : {result.message}</p>
+      return <p className="fetch-message error-message" role="alert">Impossible de charger la sélection : {result.message}</p>
     default: {
       const exhaustive: never = result
       return exhaustive
