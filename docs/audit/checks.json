@@ -1,0 +1,1904 @@
+{
+  "desktop": [
+    {
+      "version": "avant",
+      "pass": 1,
+      "profile": "desktop",
+      "fetchTime": "2026-11-16T12:29:19.959Z",
+      "settings": {
+        "output": "html",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "fr",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      },
+      "warnings": [],
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "fcpMs": 463.192,
+      "lcpMs": 865.268,
+      "tbtMs": 0,
+      "cls": 0.05716424214896536,
+      "transferredBytes": 486886
+    },
+    {
+      "version": "final",
+      "pass": 1,
+      "profile": "desktop",
+      "fetchTime": "2026-11-16T12:29:28.411Z",
+      "settings": {
+        "output": "html",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "fr",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      },
+      "warnings": [],
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "fcpMs": 337.9708,
+      "lcpMs": 503.95619999999997,
+      "tbtMs": 0,
+      "cls": 0.05705477241302571,
+      "transferredBytes": 1769882
+    },
+    {
+      "version": "avant",
+      "pass": 2,
+      "profile": "desktop",
+      "fetchTime": "2026-11-16T12:29:36.475Z",
+      "settings": {
+        "output": "html",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "fr",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      },
+      "warnings": [],
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "fcpMs": 459.64205000000004,
+      "lcpMs": 834.4400499999999,
+      "tbtMs": 0,
+      "cls": 0.05708401400563289,
+      "transferredBytes": 486888
+    },
+    {
+      "version": "final",
+      "pass": 2,
+      "profile": "desktop",
+      "fetchTime": "2026-11-16T12:29:44.816Z",
+      "settings": {
+        "output": "html",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "fr",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      },
+      "warnings": [],
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "fcpMs": 213.5969,
+      "lcpMs": 1133.5969,
+      "tbtMs": 0,
+      "cls": 0.05705477241302571,
+      "transferredBytes": 1769882
+    },
+    {
+      "version": "avant",
+      "pass": 3,
+      "profile": "desktop",
+      "fetchTime": "2026-11-16T12:29:52.727Z",
+      "settings": {
+        "output": "html",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "fr",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      },
+      "warnings": [],
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "fcpMs": 460.41575,
+      "lcpMs": 868.1912499999999,
+      "tbtMs": 0,
+      "cls": 0.05716424214896536,
+      "transferredBytes": 486885
+    },
+    {
+      "version": "final",
+      "pass": 3,
+      "profile": "desktop",
+      "fetchTime": "2026-11-16T12:30:00.857Z",
+      "settings": {
+        "output": "html",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "fr",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      },
+      "warnings": [],
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "fcpMs": 216.39049999999997,
+      "lcpMs": 1136.3905,
+      "tbtMs": 0,
+      "cls": 0.05705477241302571,
+      "transferredBytes": 1769882
+    }
+  ],
+  "ecoindex": [
+    {
+      "version": "avant",
+      "pass": 1,
+      "view": "boutique",
+      "dom": 149,
+      "requests": 14,
+      "networkBytes": 486743,
+      "htmlBytesAdded": 607,
+      "bytes": 487350,
+      "score": 86.27756277825962,
+      "grade": "A",
+      "tool": "ecoindex@2.0.1",
+      "reference": "ecoindex_reference@1.0.2",
+      "estimate": true,
+      "records": [
+        {
+          "requestId": "586C5C997988F81AC88A8B85ADFB60FC",
+          "bytes": 857,
+          "url": "http://127.0.0.1:4200/",
+          "status": 200,
+          "type": "Document"
+        },
+        {
+          "requestId": "36288.3",
+          "bytes": 4631,
+          "url": "http://127.0.0.1:4200/assets/index-2JN1xRDZ.css",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "36288.2",
+          "bytes": 70887,
+          "url": "http://127.0.0.1:4200/assets/index-DKvxSArv.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "36288.6",
+          "bytes": 1102,
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "36288.8",
+          "bytes": 36964,
+          "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "36288.22",
+          "bytes": 157,
+          "url": "http://127.0.0.1:4200/favicon.ico",
+          "status": 404,
+          "type": "Other"
+        },
+        {
+          "requestId": "36288.17",
+          "bytes": 67341,
+          "url": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "36288.21",
+          "bytes": 1046,
+          "url": "http://127.0.0.1:4200/data/products.json",
+          "status": 200,
+          "type": "Fetch"
+        },
+        {
+          "requestId": "36288.27",
+          "bytes": 80701,
+          "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "36288.24",
+          "bytes": 65346,
+          "url": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "36288.25",
+          "bytes": 6680,
+          "url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "36288.23",
+          "bytes": 13260,
+          "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "36288.28",
+          "bytes": 50323,
+          "url": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "36288.26",
+          "bytes": 87448,
+          "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "version": "avant",
+      "pass": 1,
+      "view": "commandes",
+      "dom": 105,
+      "requests": 15,
+      "networkBytes": 488109,
+      "htmlBytesAdded": 607,
+      "bytes": 488716,
+      "score": 87.45193058328346,
+      "grade": "A",
+      "tool": "ecoindex@2.0.1",
+      "reference": "ecoindex_reference@1.0.2",
+      "estimate": true,
+      "records": [
+        {
+          "requestId": "CBBB5683DBBB58387734215BE7C6C3F9",
+          "bytes": 857,
+          "url": "http://127.0.0.1:4200/",
+          "status": 200,
+          "type": "Document"
+        },
+        {
+          "requestId": "29492.3",
+          "bytes": 4631,
+          "url": "http://127.0.0.1:4200/assets/index-2JN1xRDZ.css",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "29492.2",
+          "bytes": 70887,
+          "url": "http://127.0.0.1:4200/assets/index-DKvxSArv.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "29492.6",
+          "bytes": 1211,
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "29492.22",
+          "bytes": 157,
+          "url": "http://127.0.0.1:4200/favicon.ico",
+          "status": 404,
+          "type": "Other"
+        },
+        {
+          "requestId": "29492.21",
+          "bytes": 1046,
+          "url": "http://127.0.0.1:4200/data/products.json",
+          "status": 200,
+          "type": "Fetch"
+        },
+        {
+          "requestId": "29492.25",
+          "bytes": 6915,
+          "url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "29492.28",
+          "bytes": 50323,
+          "url": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "29492.29",
+          "bytes": 1259,
+          "url": "http://127.0.0.1:4200/data/orders.json",
+          "status": 200,
+          "type": "Fetch"
+        },
+        {
+          "requestId": "29492.24",
+          "bytes": 65337,
+          "url": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "29492.23",
+          "bytes": 13259,
+          "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "29492.27",
+          "bytes": 80475,
+          "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "29492.26",
+          "bytes": 87447,
+          "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "29492.8",
+          "bytes": 36964,
+          "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "29492.17",
+          "bytes": 67341,
+          "url": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA.woff2",
+          "status": 200,
+          "type": "Font"
+        }
+      ]
+    },
+    {
+      "version": "final",
+      "pass": 1,
+      "view": "boutique",
+      "dom": 152,
+      "requests": 14,
+      "networkBytes": 1769882,
+      "htmlBytesAdded": 719,
+      "bytes": 1770601,
+      "score": 80.04085148897909,
+      "grade": "A",
+      "tool": "ecoindex@2.0.1",
+      "reference": "ecoindex_reference@1.0.2",
+      "estimate": true,
+      "records": [
+        {
+          "requestId": "94E317DC11C7FCF06C7D6BAA37A0C8EA",
+          "bytes": 969,
+          "url": "http://127.0.0.1:4206/",
+          "status": 200,
+          "type": "Document"
+        },
+        {
+          "requestId": "38856.4",
+          "bytes": 3585,
+          "url": "http://127.0.0.1:4206/assets/index-D6bLqkZe.css",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "38856.2",
+          "bytes": 67624,
+          "url": "http://127.0.0.1:4206/fonts/fraunces-latin-variable.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "38856.3",
+          "bytes": 69866,
+          "url": "http://127.0.0.1:4206/assets/index-DZcwbFA4.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "38856.8",
+          "bytes": 37252,
+          "url": "http://127.0.0.1:4206/fonts/dm-sans-latin-variable.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "38856.10",
+          "bytes": 2066,
+          "url": "http://127.0.0.1:4206/assets/ShopPage-wdAJxIll.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "38856.11",
+          "bytes": 157,
+          "url": "http://127.0.0.1:4206/favicon.ico",
+          "status": 404,
+          "type": "Other"
+        },
+        {
+          "requestId": "38856.12",
+          "bytes": 913,
+          "url": "http://127.0.0.1:4206/data/products.json",
+          "status": 200,
+          "type": "Fetch"
+        },
+        {
+          "requestId": "38856.13",
+          "bytes": 93532,
+          "url": "http://127.0.0.1:4206/lampe.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "38856.15",
+          "bytes": 19364,
+          "url": "http://127.0.0.1:4206/tasse.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "38856.14",
+          "bytes": 284476,
+          "url": "http://127.0.0.1:4206/canape.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "38856.17",
+          "bytes": 328026,
+          "url": "http://127.0.0.1:4206/sejour2.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "38856.16",
+          "bytes": 434960,
+          "url": "http://127.0.0.1:4206/sejour.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "38856.18",
+          "bytes": 427092,
+          "url": "http://127.0.0.1:4206/bougie.webp",
+          "status": 200,
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "version": "final",
+      "pass": 1,
+      "view": "commandes",
+      "dom": 108,
+      "requests": 9,
+      "networkBytes": 184088,
+      "htmlBytesAdded": 719,
+      "bytes": 184807,
+      "score": 89.61656232562535,
+      "grade": "A",
+      "tool": "ecoindex@2.0.1",
+      "reference": "ecoindex_reference@1.0.2",
+      "estimate": true,
+      "records": [
+        {
+          "requestId": "567C0617F2E4D62C2377B4032326B59D",
+          "bytes": 969,
+          "url": "http://127.0.0.1:4206/",
+          "status": 200,
+          "type": "Document"
+        },
+        {
+          "requestId": "38548.4",
+          "bytes": 3585,
+          "url": "http://127.0.0.1:4206/assets/index-D6bLqkZe.css",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "38548.2",
+          "bytes": 67624,
+          "url": "http://127.0.0.1:4206/fonts/fraunces-latin-variable.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "38548.3",
+          "bytes": 69866,
+          "url": "http://127.0.0.1:4206/assets/index-DZcwbFA4.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "38548.8",
+          "bytes": 37252,
+          "url": "http://127.0.0.1:4206/fonts/dm-sans-latin-variable.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "38548.10",
+          "bytes": 2066,
+          "url": "http://127.0.0.1:4206/assets/ShopPage-wdAJxIll.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "38548.11",
+          "bytes": 157,
+          "url": "http://127.0.0.1:4206/favicon.ico",
+          "status": 404,
+          "type": "Other"
+        },
+        {
+          "requestId": "38548.12",
+          "bytes": 1310,
+          "url": "http://127.0.0.1:4206/assets/OrdersPage-tAkTxvmU.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "38548.13",
+          "bytes": 1259,
+          "url": "http://127.0.0.1:4206/data/orders.json",
+          "status": 200,
+          "type": "Fetch"
+        }
+      ]
+    },
+    {
+      "version": "avant",
+      "pass": 2,
+      "view": "boutique",
+      "dom": 149,
+      "requests": 14,
+      "networkBytes": 486734,
+      "htmlBytesAdded": 607,
+      "bytes": 487341,
+      "score": 86.27760857466274,
+      "grade": "A",
+      "tool": "ecoindex@2.0.1",
+      "reference": "ecoindex_reference@1.0.2",
+      "estimate": true,
+      "records": [
+        {
+          "requestId": "FDBB7932EECC8AE89E329566604AAA74",
+          "bytes": 857,
+          "url": "http://127.0.0.1:4200/",
+          "status": 200,
+          "type": "Document"
+        },
+        {
+          "requestId": "28816.3",
+          "bytes": 4631,
+          "url": "http://127.0.0.1:4200/assets/index-2JN1xRDZ.css",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "28816.2",
+          "bytes": 70887,
+          "url": "http://127.0.0.1:4200/assets/index-DKvxSArv.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "28816.6",
+          "bytes": 1102,
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "28816.22",
+          "bytes": 157,
+          "url": "http://127.0.0.1:4200/favicon.ico",
+          "status": 404,
+          "type": "Other"
+        },
+        {
+          "requestId": "28816.8",
+          "bytes": 36964,
+          "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "28816.21",
+          "bytes": 1046,
+          "url": "http://127.0.0.1:4200/data/products.json",
+          "status": 200,
+          "type": "Fetch"
+        },
+        {
+          "requestId": "28816.17",
+          "bytes": 67341,
+          "url": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "28816.26",
+          "bytes": 87683,
+          "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "28816.24",
+          "bytes": 65337,
+          "url": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "28816.25",
+          "bytes": 6680,
+          "url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "28816.23",
+          "bytes": 13260,
+          "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "28816.27",
+          "bytes": 80466,
+          "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "28816.28",
+          "bytes": 50323,
+          "url": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "version": "avant",
+      "pass": 2,
+      "view": "commandes",
+      "dom": 105,
+      "requests": 15,
+      "networkBytes": 487991,
+      "htmlBytesAdded": 607,
+      "bytes": 488598,
+      "score": 87.45253102501317,
+      "grade": "A",
+      "tool": "ecoindex@2.0.1",
+      "reference": "ecoindex_reference@1.0.2",
+      "estimate": true,
+      "records": [
+        {
+          "requestId": "AB0B69A458C169475A80212D527691A5",
+          "bytes": 857,
+          "url": "http://127.0.0.1:4200/",
+          "status": 200,
+          "type": "Document"
+        },
+        {
+          "requestId": "35804.3",
+          "bytes": 4631,
+          "url": "http://127.0.0.1:4200/assets/index-2JN1xRDZ.css",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "35804.2",
+          "bytes": 70887,
+          "url": "http://127.0.0.1:4200/assets/index-DKvxSArv.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "35804.6",
+          "bytes": 1102,
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "35804.22",
+          "bytes": 157,
+          "url": "http://127.0.0.1:4200/favicon.ico",
+          "status": 404,
+          "type": "Other"
+        },
+        {
+          "requestId": "35804.21",
+          "bytes": 1046,
+          "url": "http://127.0.0.1:4200/data/products.json",
+          "status": 200,
+          "type": "Fetch"
+        },
+        {
+          "requestId": "35804.8",
+          "bytes": 36964,
+          "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "35804.17",
+          "bytes": 67341,
+          "url": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "35804.24",
+          "bytes": 65572,
+          "url": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "35804.25",
+          "bytes": 6680,
+          "url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "35804.23",
+          "bytes": 13259,
+          "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "35804.26",
+          "bytes": 87447,
+          "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "35804.28",
+          "bytes": 50323,
+          "url": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "35804.29",
+          "bytes": 1259,
+          "url": "http://127.0.0.1:4200/data/orders.json",
+          "status": 200,
+          "type": "Fetch"
+        },
+        {
+          "requestId": "35804.27",
+          "bytes": 80466,
+          "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "version": "final",
+      "pass": 2,
+      "view": "boutique",
+      "dom": 152,
+      "requests": 14,
+      "networkBytes": 1769882,
+      "htmlBytesAdded": 719,
+      "bytes": 1770601,
+      "score": 80.04085148897909,
+      "grade": "A",
+      "tool": "ecoindex@2.0.1",
+      "reference": "ecoindex_reference@1.0.2",
+      "estimate": true,
+      "records": [
+        {
+          "requestId": "7E28A11FE099ABA2B2203C00661357F0",
+          "bytes": 969,
+          "url": "http://127.0.0.1:4206/",
+          "status": 200,
+          "type": "Document"
+        },
+        {
+          "requestId": "14312.4",
+          "bytes": 3585,
+          "url": "http://127.0.0.1:4206/assets/index-D6bLqkZe.css",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "14312.2",
+          "bytes": 67624,
+          "url": "http://127.0.0.1:4206/fonts/fraunces-latin-variable.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "14312.3",
+          "bytes": 69866,
+          "url": "http://127.0.0.1:4206/assets/index-DZcwbFA4.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "14312.8",
+          "bytes": 37252,
+          "url": "http://127.0.0.1:4206/fonts/dm-sans-latin-variable.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "14312.10",
+          "bytes": 2066,
+          "url": "http://127.0.0.1:4206/assets/ShopPage-wdAJxIll.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "14312.11",
+          "bytes": 157,
+          "url": "http://127.0.0.1:4206/favicon.ico",
+          "status": 404,
+          "type": "Other"
+        },
+        {
+          "requestId": "14312.12",
+          "bytes": 913,
+          "url": "http://127.0.0.1:4206/data/products.json",
+          "status": 200,
+          "type": "Fetch"
+        },
+        {
+          "requestId": "14312.13",
+          "bytes": 93532,
+          "url": "http://127.0.0.1:4206/lampe.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "14312.15",
+          "bytes": 19364,
+          "url": "http://127.0.0.1:4206/tasse.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "14312.14",
+          "bytes": 284476,
+          "url": "http://127.0.0.1:4206/canape.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "14312.17",
+          "bytes": 328026,
+          "url": "http://127.0.0.1:4206/sejour2.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "14312.16",
+          "bytes": 434960,
+          "url": "http://127.0.0.1:4206/sejour.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "14312.18",
+          "bytes": 427092,
+          "url": "http://127.0.0.1:4206/bougie.webp",
+          "status": 200,
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "version": "final",
+      "pass": 2,
+      "view": "commandes",
+      "dom": 108,
+      "requests": 9,
+      "networkBytes": 184088,
+      "htmlBytesAdded": 719,
+      "bytes": 184807,
+      "score": 89.61656232562535,
+      "grade": "A",
+      "tool": "ecoindex@2.0.1",
+      "reference": "ecoindex_reference@1.0.2",
+      "estimate": true,
+      "records": [
+        {
+          "requestId": "0B16041A9197FAAB766D3EDD71F25315",
+          "bytes": 969,
+          "url": "http://127.0.0.1:4206/",
+          "status": 200,
+          "type": "Document"
+        },
+        {
+          "requestId": "33164.4",
+          "bytes": 3585,
+          "url": "http://127.0.0.1:4206/assets/index-D6bLqkZe.css",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "33164.2",
+          "bytes": 67624,
+          "url": "http://127.0.0.1:4206/fonts/fraunces-latin-variable.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "33164.3",
+          "bytes": 69866,
+          "url": "http://127.0.0.1:4206/assets/index-DZcwbFA4.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "33164.8",
+          "bytes": 37252,
+          "url": "http://127.0.0.1:4206/fonts/dm-sans-latin-variable.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "33164.10",
+          "bytes": 2066,
+          "url": "http://127.0.0.1:4206/assets/ShopPage-wdAJxIll.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "33164.11",
+          "bytes": 157,
+          "url": "http://127.0.0.1:4206/favicon.ico",
+          "status": 404,
+          "type": "Other"
+        },
+        {
+          "requestId": "33164.12",
+          "bytes": 1310,
+          "url": "http://127.0.0.1:4206/assets/OrdersPage-tAkTxvmU.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "33164.13",
+          "bytes": 1259,
+          "url": "http://127.0.0.1:4206/data/orders.json",
+          "status": 200,
+          "type": "Fetch"
+        }
+      ]
+    },
+    {
+      "version": "avant",
+      "pass": 3,
+      "view": "boutique",
+      "dom": 149,
+      "requests": 14,
+      "networkBytes": 470047,
+      "htmlBytesAdded": 607,
+      "bytes": 470654,
+      "score": 86.36252019452506,
+      "grade": "A",
+      "tool": "ecoindex@2.0.1",
+      "reference": "ecoindex_reference@1.0.2",
+      "estimate": true,
+      "records": [
+        {
+          "requestId": "EDC97F9F2FBB01B4F4AB40D3BEBB3028",
+          "bytes": 857,
+          "url": "http://127.0.0.1:4200/",
+          "status": 200,
+          "type": "Document"
+        },
+        {
+          "requestId": "34272.3",
+          "bytes": 4631,
+          "url": "http://127.0.0.1:4200/assets/index-2JN1xRDZ.css",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "34272.2",
+          "bytes": 70887,
+          "url": "http://127.0.0.1:4200/assets/index-DKvxSArv.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "34272.6",
+          "bytes": 1199,
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "34272.8",
+          "bytes": 25028,
+          "url": "https://fonts.gstatic.com/l/font?kit=rP2-p2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopwDRUUHvP-6oMc49xLtf0DPCg&skey=cd068b3e1b767e51&v=v17",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "34272.22",
+          "bytes": 157,
+          "url": "http://127.0.0.1:4200/favicon.ico",
+          "status": 404,
+          "type": "Other"
+        },
+        {
+          "requestId": "34272.17",
+          "bytes": 62477,
+          "url": "https://fonts.gstatic.com/l/font?kit=6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7iQcIfJD58ngz1dU3gg7S2nfgRYIchRuTCf7T&skey=2eca4ab215eafb9c&v=v38",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "34272.21",
+          "bytes": 1046,
+          "url": "http://127.0.0.1:4200/data/products.json",
+          "status": 200,
+          "type": "Fetch"
+        },
+        {
+          "requestId": "34272.23",
+          "bytes": 13259,
+          "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "34272.26",
+          "bytes": 87682,
+          "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "34272.25",
+          "bytes": 6680,
+          "url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "34272.24",
+          "bytes": 65346,
+          "url": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "34272.27",
+          "bytes": 80466,
+          "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "34272.28",
+          "bytes": 50332,
+          "url": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "version": "avant",
+      "pass": 3,
+      "view": "commandes",
+      "dom": 105,
+      "requests": 15,
+      "networkBytes": 488002,
+      "htmlBytesAdded": 607,
+      "bytes": 488609,
+      "score": 87.4524750516316,
+      "grade": "A",
+      "tool": "ecoindex@2.0.1",
+      "reference": "ecoindex_reference@1.0.2",
+      "estimate": true,
+      "records": [
+        {
+          "requestId": "7EDA11D1F6AE2912601E3E5BAA1AE20E",
+          "bytes": 857,
+          "url": "http://127.0.0.1:4200/",
+          "status": 200,
+          "type": "Document"
+        },
+        {
+          "requestId": "30992.3",
+          "bytes": 4631,
+          "url": "http://127.0.0.1:4200/assets/index-2JN1xRDZ.css",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "30992.2",
+          "bytes": 70887,
+          "url": "http://127.0.0.1:4200/assets/index-DKvxSArv.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "30992.6",
+          "bytes": 1102,
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "30992.22",
+          "bytes": 157,
+          "url": "http://127.0.0.1:4200/favicon.ico",
+          "status": 404,
+          "type": "Other"
+        },
+        {
+          "requestId": "30992.21",
+          "bytes": 1046,
+          "url": "http://127.0.0.1:4200/data/products.json",
+          "status": 200,
+          "type": "Fetch"
+        },
+        {
+          "requestId": "30992.8",
+          "bytes": 36964,
+          "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "30992.17",
+          "bytes": 67341,
+          "url": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "30992.26",
+          "bytes": 87683,
+          "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "30992.24",
+          "bytes": 65346,
+          "url": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "30992.28",
+          "bytes": 50323,
+          "url": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "30992.23",
+          "bytes": 13260,
+          "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "30992.25",
+          "bytes": 6680,
+          "url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "30992.27",
+          "bytes": 80466,
+          "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=85",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "30992.29",
+          "bytes": 1259,
+          "url": "http://127.0.0.1:4200/data/orders.json",
+          "status": 200,
+          "type": "Fetch"
+        }
+      ]
+    },
+    {
+      "version": "final",
+      "pass": 3,
+      "view": "boutique",
+      "dom": 152,
+      "requests": 14,
+      "networkBytes": 1769882,
+      "htmlBytesAdded": 719,
+      "bytes": 1770601,
+      "score": 80.04085148897909,
+      "grade": "A",
+      "tool": "ecoindex@2.0.1",
+      "reference": "ecoindex_reference@1.0.2",
+      "estimate": true,
+      "records": [
+        {
+          "requestId": "64DA6881651EBB13D9F9FA713FFE3594",
+          "bytes": 969,
+          "url": "http://127.0.0.1:4206/",
+          "status": 200,
+          "type": "Document"
+        },
+        {
+          "requestId": "1784.4",
+          "bytes": 3585,
+          "url": "http://127.0.0.1:4206/assets/index-D6bLqkZe.css",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "1784.2",
+          "bytes": 67624,
+          "url": "http://127.0.0.1:4206/fonts/fraunces-latin-variable.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "1784.3",
+          "bytes": 69866,
+          "url": "http://127.0.0.1:4206/assets/index-DZcwbFA4.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "1784.8",
+          "bytes": 37252,
+          "url": "http://127.0.0.1:4206/fonts/dm-sans-latin-variable.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "1784.10",
+          "bytes": 2066,
+          "url": "http://127.0.0.1:4206/assets/ShopPage-wdAJxIll.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "1784.11",
+          "bytes": 157,
+          "url": "http://127.0.0.1:4206/favicon.ico",
+          "status": 404,
+          "type": "Other"
+        },
+        {
+          "requestId": "1784.12",
+          "bytes": 913,
+          "url": "http://127.0.0.1:4206/data/products.json",
+          "status": 200,
+          "type": "Fetch"
+        },
+        {
+          "requestId": "1784.13",
+          "bytes": 93532,
+          "url": "http://127.0.0.1:4206/lampe.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "1784.15",
+          "bytes": 19364,
+          "url": "http://127.0.0.1:4206/tasse.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "1784.14",
+          "bytes": 284476,
+          "url": "http://127.0.0.1:4206/canape.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "1784.17",
+          "bytes": 328026,
+          "url": "http://127.0.0.1:4206/sejour2.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "1784.16",
+          "bytes": 434960,
+          "url": "http://127.0.0.1:4206/sejour.webp",
+          "status": 200,
+          "type": "Image"
+        },
+        {
+          "requestId": "1784.18",
+          "bytes": 427092,
+          "url": "http://127.0.0.1:4206/bougie.webp",
+          "status": 200,
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "version": "final",
+      "pass": 3,
+      "view": "commandes",
+      "dom": 108,
+      "requests": 9,
+      "networkBytes": 184088,
+      "htmlBytesAdded": 719,
+      "bytes": 184807,
+      "score": 89.61656232562535,
+      "grade": "A",
+      "tool": "ecoindex@2.0.1",
+      "reference": "ecoindex_reference@1.0.2",
+      "estimate": true,
+      "records": [
+        {
+          "requestId": "EFCF6875150B772C0052FAC256B1F277",
+          "bytes": 969,
+          "url": "http://127.0.0.1:4206/",
+          "status": 200,
+          "type": "Document"
+        },
+        {
+          "requestId": "30888.4",
+          "bytes": 3585,
+          "url": "http://127.0.0.1:4206/assets/index-D6bLqkZe.css",
+          "status": 200,
+          "type": "Stylesheet"
+        },
+        {
+          "requestId": "30888.2",
+          "bytes": 67624,
+          "url": "http://127.0.0.1:4206/fonts/fraunces-latin-variable.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "30888.3",
+          "bytes": 69866,
+          "url": "http://127.0.0.1:4206/assets/index-DZcwbFA4.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "30888.8",
+          "bytes": 37252,
+          "url": "http://127.0.0.1:4206/fonts/dm-sans-latin-variable.woff2",
+          "status": 200,
+          "type": "Font"
+        },
+        {
+          "requestId": "30888.10",
+          "bytes": 2066,
+          "url": "http://127.0.0.1:4206/assets/ShopPage-wdAJxIll.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "30888.11",
+          "bytes": 157,
+          "url": "http://127.0.0.1:4206/favicon.ico",
+          "status": 404,
+          "type": "Other"
+        },
+        {
+          "requestId": "30888.12",
+          "bytes": 1310,
+          "url": "http://127.0.0.1:4206/assets/OrdersPage-tAkTxvmU.js",
+          "status": 200,
+          "type": "Script"
+        },
+        {
+          "requestId": "30888.13",
+          "bytes": 1259,
+          "url": "http://127.0.0.1:4206/data/orders.json",
+          "status": 200,
+          "type": "Fetch"
+        }
+      ]
+    }
+  ],
+  "functional": [
+    {
+      "version": "avant",
+      "hasSkipLink": false,
+      "skipLinkWorks": false,
+      "titleChanges": false,
+      "focusFollowsView": false,
+      "activeViewMarked": false,
+      "hasCartLiveRegion": false,
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85",
+          "loaded": true,
+          "naturalWidth": 900,
+          "naturalHeight": 1350,
+          "loading": "auto",
+          "decoding": "auto",
+          "renderedWidth": 454,
+          "renderedHeight": 344
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=900&q=85",
+          "loaded": true,
+          "naturalWidth": 900,
+          "naturalHeight": 600,
+          "loading": "auto",
+          "decoding": "auto",
+          "renderedWidth": 454,
+          "renderedHeight": 344
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+          "loaded": true,
+          "naturalWidth": 900,
+          "naturalHeight": 600,
+          "loading": "auto",
+          "decoding": "auto",
+          "renderedWidth": 454,
+          "renderedHeight": 344
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85",
+          "loaded": true,
+          "naturalWidth": 900,
+          "naturalHeight": 675,
+          "loading": "auto",
+          "decoding": "auto",
+          "renderedWidth": 454,
+          "renderedHeight": 344
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=85",
+          "loaded": true,
+          "naturalWidth": 900,
+          "naturalHeight": 475,
+          "loading": "auto",
+          "decoding": "auto",
+          "renderedWidth": 454,
+          "renderedHeight": 344
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
+          "loaded": true,
+          "naturalWidth": 900,
+          "naturalHeight": 1350,
+          "loading": "auto",
+          "decoding": "auto",
+          "renderedWidth": 454,
+          "renderedHeight": 344
+        }
+      ],
+      "orders": 4,
+      "ordersChunkAbsentAtStart": true,
+      "ordersChunkRequestedOnNavigation": false,
+      "cartPersists": true,
+      "incrementRemoveClear": true,
+      "mobileNoOverflow": true,
+      "errors": []
+    },
+    {
+      "version": "final",
+      "hasSkipLink": true,
+      "skipLinkWorks": true,
+      "titleChanges": true,
+      "focusFollowsView": true,
+      "activeViewMarked": true,
+      "hasCartLiveRegion": true,
+      "images": [
+        {
+          "src": "./lampe.webp",
+          "loaded": true,
+          "naturalWidth": 900,
+          "naturalHeight": 1350,
+          "loading": "eager",
+          "decoding": "async",
+          "renderedWidth": 454,
+          "renderedHeight": 344
+        },
+        {
+          "src": "./canape.webp",
+          "loaded": true,
+          "naturalWidth": 900,
+          "naturalHeight": 600,
+          "loading": "lazy",
+          "decoding": "async",
+          "renderedWidth": 454,
+          "renderedHeight": 344
+        },
+        {
+          "src": "./tasse.webp",
+          "loaded": true,
+          "naturalWidth": 600,
+          "naturalHeight": 400,
+          "loading": "lazy",
+          "decoding": "async",
+          "renderedWidth": 454,
+          "renderedHeight": 344
+        },
+        {
+          "src": "./sejour.webp",
+          "loaded": true,
+          "naturalWidth": 900,
+          "naturalHeight": 675,
+          "loading": "lazy",
+          "decoding": "async",
+          "renderedWidth": 454,
+          "renderedHeight": 344
+        },
+        {
+          "src": "./sejour2.webp",
+          "loaded": true,
+          "naturalWidth": 900,
+          "naturalHeight": 475,
+          "loading": "lazy",
+          "decoding": "async",
+          "renderedWidth": 454,
+          "renderedHeight": 344
+        },
+        {
+          "src": "./bougie.webp",
+          "loaded": true,
+          "naturalWidth": 900,
+          "naturalHeight": 1350,
+          "loading": "lazy",
+          "decoding": "async",
+          "renderedWidth": 454,
+          "renderedHeight": 344
+        }
+      ],
+      "orders": 4,
+      "ordersChunkAbsentAtStart": true,
+      "ordersChunkRequestedOnNavigation": true,
+      "cartPersists": true,
+      "incrementRemoveClear": true,
+      "mobileNoOverflow": true,
+      "errors": []
+    }
+  ]
+}

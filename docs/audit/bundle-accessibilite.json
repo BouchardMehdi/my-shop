@@ -1,0 +1,109 @@
+{
+  "results": [
+    {
+      "bundleName": "dist/assets/OrdersPage-Dt4Hb1jd.js",
+      "totalBytes": 2601,
+      "mappedBytes": 2559,
+      "unmappedBytes": 42,
+      "eolBytes": 0,
+      "sourceMapCommentBytes": 0,
+      "files": {
+        "src/types/orders.ts": {
+          "size": 298
+        },
+        "src/components/OrderList.tsx": {
+          "size": 1806
+        },
+        "src/pages/OrdersPage.tsx": {
+          "size": 455
+        },
+        "[sourceMappingURL]": {
+          "size": 0
+        },
+        "[unmapped]": {
+          "size": 42
+        }
+      }
+    },
+    {
+      "bundleName": "dist/assets/ShopPage-CP1orCDK.js",
+      "totalBytes": 5250,
+      "mappedBytes": 5180,
+      "unmappedBytes": 70,
+      "eolBytes": 0,
+      "sourceMapCommentBytes": 0,
+      "files": {
+        "src/components/ProductList.tsx": {
+          "size": 1727
+        },
+        "src/pages/ShopPage.tsx": {
+          "size": 3453
+        },
+        "[sourceMappingURL]": {
+          "size": 0
+        },
+        "[unmapped]": {
+          "size": 70
+        }
+      }
+    },
+    {
+      "bundleName": "dist/assets/index-D7cIi5H0.js",
+      "totalBytes": 223951,
+      "mappedBytes": 223147,
+      "unmappedBytes": 796,
+      "eolBytes": 8,
+      "sourceMapCommentBytes": 0,
+      "files": {
+        "node_modules/react/cjs/react.production.js": {
+          "size": 7840
+        },
+        "node_modules/react/index.js": {
+          "size": 26
+        },
+        "node_modules/scheduler/cjs/scheduler.production.js": {
+          "size": 3509
+        },
+        "node_modules/scheduler/index.js": {
+          "size": 26
+        },
+        "node_modules/react-dom/cjs/react-dom.production.js": {
+          "size": 3570
+        },
+        "node_modules/react-dom/index.js": {
+          "size": 222
+        },
+        "node_modules/react-dom/cjs/react-dom-client.production.js": {
+          "size": 202919
+        },
+        "node_modules/react-dom/client.js": {
+          "size": 225
+        },
+        "src/types/ecommerce.ts": {
+          "size": 706
+        },
+        "node_modules/react/cjs/react-jsx-runtime.production.js": {
+          "size": 339
+        },
+        "node_modules/react/jsx-runtime.js": {
+          "size": 1392
+        },
+        "src/App.tsx": {
+          "size": 2235
+        },
+        "src/main.tsx": {
+          "size": 138
+        },
+        "[sourceMappingURL]": {
+          "size": 0
+        },
+        "[unmapped]": {
+          "size": 796
+        },
+        "[EOLs]": {
+          "size": 8
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "version": "avant",
+  "view": "boutique",
+  "toolVersion": "4.14.0",
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "target": [
+            ".wordmark-mark"
+          ],
+          "html": "<span class=\"wordmark-mark\" aria-hidden=\"true\">m.</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.58 (foreground color: #ffffff, background color: #d7654d, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".nav-link:nth-child(2)"
+          ],
+          "html": "<button class=\"nav-link\">Commandes</button>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".intro-copy > .eyebrow"
+          ],
+          "html": "<p class=\"eyebrow\"><span class=\"eyebrow-dot\"></span> Objets choisis, vie quotidienne</p>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #78817b, background color: #edf2e9, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".intro-description"
+          ],
+          "html": "<p class=\"intro-description\">Une sélection de pièces utiles et bien pensées, fabriquées pour trouver leur place chez vous.</p>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #78817b, background color: #edf2e9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".note-index"
+          ],
+          "html": "<span class=\"note-index\">01 / 03</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.53 (foreground color: #78817b, background color: #edf2e9, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".section-heading > div > .eyebrow"
+          ],
+          "html": "<p class=\"eyebrow\">Nos essentiels</p>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "#catalog-title > .heading-count"
+          ],
+          "html": "<span class=\"heading-count\">06</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #d7654d, background color: #fffefa, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".sort-label"
+          ],
+          "html": "<span class=\"sort-label\">Sélection du studio <span aria-hidden=\"true\">⌄</span></span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "article:nth-child(1) > .product-details > p"
+          ],
+          "html": "<p>Une lumière douce, un pied sculptural en céramique.</p>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "article:nth-child(2) > .product-details > p"
+          ],
+          "html": "<p>Grès façonné à la main, chaque pièce est unique.</p>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "article:nth-child(3) > .product-details > p"
+          ],
+          "html": "<p>Une anse généreuse et un émail vert profond.</p>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "article:nth-child(4) > .product-details > p"
+          ],
+          "html": "<p>Coton recyclé tissé dans les Hauts-de-France.</p>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "article:nth-child(5) > .product-details > p"
+          ],
+          "html": "<p>Du chêne certifié, des lignes simples et durables.</p>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "article:nth-child(6) > .product-details > p"
+          ],
+          "html": "<p>Cire végétale, parfum de figuier et de bois blond.</p>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".is-out"
+          ],
+          "html": "<span class=\"stock-status is-out\"><span></span> Épuisé</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".cart-panel-heading > div > .eyebrow"
+          ],
+          "html": "<p class=\"eyebrow\">Votre sélection</p>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "#cart-title > .heading-count"
+          ],
+          "html": "<span class=\"heading-count\">00</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #d7654d, background color: #fffefa, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".empty-cart > span:nth-child(3)"
+          ],
+          "html": "<span>Les belles trouvailles sont juste à côté.</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            ".cart-footnote"
+          ],
+          "html": "<div class=\"cart-footnote\"><span class=\"footnote-check\">✓</span> Livraison offerte dès 80 €</div>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "footer > span:nth-child(1)"
+          ],
+          "html": "<span>maison moderne <span class=\"footer-dot\">·</span> Des objets faits pour durer.</span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "target": [
+            "footer > span:nth-child(2)"
+          ],
+          "html": "<span>Conçu avec soin, en France <span aria-hidden=\"true\">✳</span></span>",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.98 (foreground color: #78817b, background color: #fffefa, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "nodes": [
+        {
+          "target": [
+            ".sort-label > span[aria-hidden=\"true\"]"
+          ],
+          "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "target": [
+            "article:nth-child(1) > .product-image-wrap > .product-badge"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(1) > .product-image-wrap > .product-category"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(2) > .product-image-wrap > .product-badge"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(2) > .product-image-wrap > .product-category"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(3) > .product-image-wrap > .product-category"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(4) > .product-image-wrap > .product-category"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(5) > .product-image-wrap > .product-badge"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(5) > .product-image-wrap > .product-category"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(6) > .product-image-wrap > .product-category"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            ".footnote-check"
+          ],
+          "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "target": [
+            ".footer-dot"
+          ],
+          "summary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        }
+      ]
+    }
+  ]
+}

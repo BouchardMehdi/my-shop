@@ -1,0 +1,115 @@
+{
+  "version": "final",
+  "pass": 3,
+  "view": "boutique",
+  "dom": 152,
+  "requests": 14,
+  "networkBytes": 1769882,
+  "htmlBytesAdded": 719,
+  "bytes": 1770601,
+  "score": 80.04085148897909,
+  "grade": "A",
+  "tool": "ecoindex@2.0.1",
+  "reference": "ecoindex_reference@1.0.2",
+  "estimate": true,
+  "records": [
+    {
+      "requestId": "64DA6881651EBB13D9F9FA713FFE3594",
+      "bytes": 969,
+      "url": "http://127.0.0.1:4206/",
+      "status": 200,
+      "type": "Document"
+    },
+    {
+      "requestId": "1784.4",
+      "bytes": 3585,
+      "url": "http://127.0.0.1:4206/assets/index-D6bLqkZe.css",
+      "status": 200,
+      "type": "Stylesheet"
+    },
+    {
+      "requestId": "1784.2",
+      "bytes": 67624,
+      "url": "http://127.0.0.1:4206/fonts/fraunces-latin-variable.woff2",
+      "status": 200,
+      "type": "Font"
+    },
+    {
+      "requestId": "1784.3",
+      "bytes": 69866,
+      "url": "http://127.0.0.1:4206/assets/index-DZcwbFA4.js",
+      "status": 200,
+      "type": "Script"
+    },
+    {
+      "requestId": "1784.8",
+      "bytes": 37252,
+      "url": "http://127.0.0.1:4206/fonts/dm-sans-latin-variable.woff2",
+      "status": 200,
+      "type": "Font"
+    },
+    {
+      "requestId": "1784.10",
+      "bytes": 2066,
+      "url": "http://127.0.0.1:4206/assets/ShopPage-wdAJxIll.js",
+      "status": 200,
+      "type": "Script"
+    },
+    {
+      "requestId": "1784.11",
+      "bytes": 157,
+      "url": "http://127.0.0.1:4206/favicon.ico",
+      "status": 404,
+      "type": "Other"
+    },
+    {
+      "requestId": "1784.12",
+      "bytes": 913,
+      "url": "http://127.0.0.1:4206/data/products.json",
+      "status": 200,
+      "type": "Fetch"
+    },
+    {
+      "requestId": "1784.13",
+      "bytes": 93532,
+      "url": "http://127.0.0.1:4206/lampe.webp",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "1784.15",
+      "bytes": 19364,
+      "url": "http://127.0.0.1:4206/tasse.webp",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "1784.14",
+      "bytes": 284476,
+      "url": "http://127.0.0.1:4206/canape.webp",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "1784.17",
+      "bytes": 328026,
+      "url": "http://127.0.0.1:4206/sejour2.webp",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "1784.16",
+      "bytes": 434960,
+      "url": "http://127.0.0.1:4206/sejour.webp",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "1784.18",
+      "bytes": 427092,
+      "url": "http://127.0.0.1:4206/bougie.webp",
+      "status": 200,
+      "type": "Image"
+    }
+  ]
+}

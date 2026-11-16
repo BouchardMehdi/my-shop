@@ -1,0 +1,78 @@
+{
+  "version": "avant",
+  "hasSkipLink": false,
+  "skipLinkWorks": false,
+  "titleChanges": false,
+  "focusFollowsView": false,
+  "activeViewMarked": false,
+  "hasCartLiveRegion": false,
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85",
+      "loaded": true,
+      "naturalWidth": 900,
+      "naturalHeight": 1350,
+      "loading": "auto",
+      "decoding": "auto",
+      "renderedWidth": 454,
+      "renderedHeight": 344
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=900&q=85",
+      "loaded": true,
+      "naturalWidth": 900,
+      "naturalHeight": 600,
+      "loading": "auto",
+      "decoding": "auto",
+      "renderedWidth": 454,
+      "renderedHeight": 344
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+      "loaded": true,
+      "naturalWidth": 900,
+      "naturalHeight": 600,
+      "loading": "auto",
+      "decoding": "auto",
+      "renderedWidth": 454,
+      "renderedHeight": 344
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85",
+      "loaded": true,
+      "naturalWidth": 900,
+      "naturalHeight": 675,
+      "loading": "auto",
+      "decoding": "auto",
+      "renderedWidth": 454,
+      "renderedHeight": 344
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=85",
+      "loaded": true,
+      "naturalWidth": 900,
+      "naturalHeight": 475,
+      "loading": "auto",
+      "decoding": "auto",
+      "renderedWidth": 454,
+      "renderedHeight": 344
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
+      "loaded": true,
+      "naturalWidth": 900,
+      "naturalHeight": 1350,
+      "loading": "auto",
+      "decoding": "auto",
+      "renderedWidth": 454,
+      "renderedHeight": 344
+    }
+  ],
+  "orders": 4,
+  "ordersChunkAbsentAtStart": true,
+  "ordersChunkRequestedOnNavigation": false,
+  "cartPersists": true,
+  "incrementRemoveClear": true,
+  "mobileNoOverflow": true,
+  "errors": []
+}
