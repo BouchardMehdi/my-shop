@@ -1,0 +1,80 @@
+{
+  "version": "final",
+  "view": "boutique",
+  "toolVersion": "4.14.0",
+  "violations": [],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "nodes": [
+        {
+          "target": [
+            ".sort-label > span[aria-hidden=\"true\"]"
+          ],
+          "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "target": [
+            "article:nth-child(1) > .product-image-wrap > .product-badge"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(1) > .product-image-wrap > .product-category"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(2) > .product-image-wrap > .product-badge"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(2) > .product-image-wrap > .product-category"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(3) > .product-image-wrap > .product-category"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(4) > .product-image-wrap > .product-category"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(5) > .product-image-wrap > .product-badge"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(5) > .product-image-wrap > .product-category"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            "article:nth-child(6) > .product-image-wrap > .product-category"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+        },
+        {
+          "target": [
+            ".footnote-check"
+          ],
+          "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+        }
+      ]
+    }
+  ]
+}

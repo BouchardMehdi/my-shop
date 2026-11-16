@@ -1,5 +1,11 @@
 # Mesures de performance
 
+L'[audit final](audit/rapport.md) complète ce document avec les sept étapes
+du projet, les mesures mobile et ordinateur, le contrôle des deux vues et
+l'estimation EcoIndex locale. Une [synthèse HTML](audit/index.html) donne
+accès aux rapports et aux preuves. Le tableau ci-dessous conserve les
+premières mesures du code-splitting et les estimations gzip affichées par Vite.
+
 ## Axe 3 : code-splitting
 
 Les vues Boutique et Commandes sont extraites dans `src/pages/` et importées
@@ -25,17 +31,15 @@ Le fichier principal diminue d'environ 2,5 %. Le code des commandes est chargé
 la Boutique augmente légèrement avec le découpage : la baisse du fichier
 principal ne prouve donc pas un gain de vitesse d'affichage.
 
-### Mesures navigateur à compléter
+### Mesures navigateur disponibles
 
-FCP et LCP n'ont pas été mesurés : aucun gain Lighthouse n'est revendiqué.
-Comparer le commit parent et ce commit avec les mêmes réglages Lighthouse,
-sur le build de production servi par `npm run preview`, cache froid.
-Répéter les mesures et comparer les médianes.
+FCP, LCP et TBT sont désormais mesurés dans l'audit final sur les builds de
+production, cache froid, avec trois passages par étape. Les JSON conservent
+les valeurs individuelles et la fiche explique les médianes et leur variabilité.
 
-Dans Network, vérifier que `OrdersPage-*.js` est absent au chargement de la
-Boutique et demandé lors du premier clic sur Commandes. Vérifier également
-qu'un produit ajouté au panier reste présent après un aller-retour entre
-Boutique et Commandes.
+Le test final confirme que `OrdersPage-*.js` est absent au chargement de la
+Boutique et demandé lors du premier clic sur Commandes, et que le panier
+reste présent après un aller-retour entre les vues.
 
 ## Axe 4 : re-renders React
 
@@ -77,7 +81,7 @@ six produits affichés, quatre commandes affichées, compteur actualisé,
 panier conservé après un aller-retour entre les vues, retrait et vidage du
 panier. Aucun gain de TBT ni de durée de rendu n'a été mesuré.
 
-### Mesures à compléter dans le Profiler et Lighthouse
+### Complément visuel possible dans le Profiler
 
 Comparer le commit de code-splitting `0a047c0` avec ce commit :
 
@@ -90,6 +94,6 @@ Comparer le commit de code-splitting `0a047c0` avec ce commit :
 4. Vérifier aussi qu'un aller-retour par Commandes conserve le panier.
    Le remontage du catalogue au retour est normal et reste attendu.
 5. Comparer la durée des commits dans le Profiler et la fluidité des mêmes
-   interactions. Mesurer séparément le TBT dans Lighthouse sur le build de
-   production, avec les mêmes réglages et plusieurs passages. Le TBT au
-   chargement peut rester inchangé malgré moins de rendus à l'interaction.
+   interactions. Le TBT Lighthouse est mesuré dans l'audit final : sa médiane
+   reste à 0 ms. Aucun gain de durée d'interaction ni de commit Profiler n'est
+   revendiqué à partir de cette mesure de chargement.

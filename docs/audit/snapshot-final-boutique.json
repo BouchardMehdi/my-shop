@@ -1,0 +1,11 @@
+{
+  "version": "final",
+  "view": "boutique",
+  "mode": "snapshot",
+  "scores": {
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 83
+  },
+  "warnings": []
+}

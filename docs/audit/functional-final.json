@@ -1,0 +1,78 @@
+{
+  "version": "final",
+  "hasSkipLink": true,
+  "skipLinkWorks": true,
+  "titleChanges": true,
+  "focusFollowsView": true,
+  "activeViewMarked": true,
+  "hasCartLiveRegion": true,
+  "images": [
+    {
+      "src": "./lampe.webp",
+      "loaded": true,
+      "naturalWidth": 900,
+      "naturalHeight": 1350,
+      "loading": "eager",
+      "decoding": "async",
+      "renderedWidth": 454,
+      "renderedHeight": 344
+    },
+    {
+      "src": "./canape.webp",
+      "loaded": true,
+      "naturalWidth": 900,
+      "naturalHeight": 600,
+      "loading": "lazy",
+      "decoding": "async",
+      "renderedWidth": 454,
+      "renderedHeight": 344
+    },
+    {
+      "src": "./tasse.webp",
+      "loaded": true,
+      "naturalWidth": 600,
+      "naturalHeight": 400,
+      "loading": "lazy",
+      "decoding": "async",
+      "renderedWidth": 454,
+      "renderedHeight": 344
+    },
+    {
+      "src": "./sejour.webp",
+      "loaded": true,
+      "naturalWidth": 900,
+      "naturalHeight": 675,
+      "loading": "lazy",
+      "decoding": "async",
+      "renderedWidth": 454,
+      "renderedHeight": 344
+    },
+    {
+      "src": "./sejour2.webp",
+      "loaded": true,
+      "naturalWidth": 900,
+      "naturalHeight": 475,
+      "loading": "lazy",
+      "decoding": "async",
+      "renderedWidth": 454,
+      "renderedHeight": 344
+    },
+    {
+      "src": "./bougie.webp",
+      "loaded": true,
+      "naturalWidth": 900,
+      "naturalHeight": 1350,
+      "loading": "lazy",
+      "decoding": "async",
+      "renderedWidth": 454,
+      "renderedHeight": 344
+    }
+  ],
+  "orders": 4,
+  "ordersChunkAbsentAtStart": true,
+  "ordersChunkRequestedOnNavigation": true,
+  "cartPersists": true,
+  "incrementRemoveClear": true,
+  "mobileNoOverflow": true,
+  "errors": []
+}

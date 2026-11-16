@@ -1,0 +1,38 @@
+[
+  {
+    "file": "bougie.webp",
+    "bytes": 426822,
+    "naturalWidth": 900,
+    "naturalHeight": 1350
+  },
+  {
+    "file": "canape.webp",
+    "bytes": 284206,
+    "naturalWidth": 900,
+    "naturalHeight": 600
+  },
+  {
+    "file": "lampe.webp",
+    "bytes": 93264,
+    "naturalWidth": 900,
+    "naturalHeight": 1350
+  },
+  {
+    "file": "sejour.webp",
+    "bytes": 434690,
+    "naturalWidth": 900,
+    "naturalHeight": 675
+  },
+  {
+    "file": "sejour2.webp",
+    "bytes": 327756,
+    "naturalWidth": 900,
+    "naturalHeight": 475
+  },
+  {
+    "file": "tasse.webp",
+    "bytes": 19096,
+    "naturalWidth": 600,
+    "naturalHeight": 400
+  }
+]

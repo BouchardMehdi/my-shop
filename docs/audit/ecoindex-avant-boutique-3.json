@@ -1,0 +1,115 @@
+{
+  "version": "avant",
+  "pass": 3,
+  "view": "boutique",
+  "dom": 149,
+  "requests": 14,
+  "networkBytes": 470047,
+  "htmlBytesAdded": 607,
+  "bytes": 470654,
+  "score": 86.36252019452506,
+  "grade": "A",
+  "tool": "ecoindex@2.0.1",
+  "reference": "ecoindex_reference@1.0.2",
+  "estimate": true,
+  "records": [
+    {
+      "requestId": "EDC97F9F2FBB01B4F4AB40D3BEBB3028",
+      "bytes": 857,
+      "url": "http://127.0.0.1:4200/",
+      "status": 200,
+      "type": "Document"
+    },
+    {
+      "requestId": "34272.3",
+      "bytes": 4631,
+      "url": "http://127.0.0.1:4200/assets/index-2JN1xRDZ.css",
+      "status": 200,
+      "type": "Stylesheet"
+    },
+    {
+      "requestId": "34272.2",
+      "bytes": 70887,
+      "url": "http://127.0.0.1:4200/assets/index-DKvxSArv.js",
+      "status": 200,
+      "type": "Script"
+    },
+    {
+      "requestId": "34272.6",
+      "bytes": 1199,
+      "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap",
+      "status": 200,
+      "type": "Stylesheet"
+    },
+    {
+      "requestId": "34272.8",
+      "bytes": 25028,
+      "url": "https://fonts.gstatic.com/l/font?kit=rP2-p2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopwDRUUHvP-6oMc49xLtf0DPCg&skey=cd068b3e1b767e51&v=v17",
+      "status": 200,
+      "type": "Font"
+    },
+    {
+      "requestId": "34272.22",
+      "bytes": 157,
+      "url": "http://127.0.0.1:4200/favicon.ico",
+      "status": 404,
+      "type": "Other"
+    },
+    {
+      "requestId": "34272.17",
+      "bytes": 62477,
+      "url": "https://fonts.gstatic.com/l/font?kit=6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7iQcIfJD58ngz1dU3gg7S2nfgRYIchRuTCf7T&skey=2eca4ab215eafb9c&v=v38",
+      "status": 200,
+      "type": "Font"
+    },
+    {
+      "requestId": "34272.21",
+      "bytes": 1046,
+      "url": "http://127.0.0.1:4200/data/products.json",
+      "status": 200,
+      "type": "Fetch"
+    },
+    {
+      "requestId": "34272.23",
+      "bytes": 13259,
+      "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "34272.26",
+      "bytes": 87682,
+      "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "34272.25",
+      "bytes": 6680,
+      "url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "34272.24",
+      "bytes": 65346,
+      "url": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=900&q=85",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "34272.27",
+      "bytes": 80466,
+      "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=85",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "34272.28",
+      "bytes": 50332,
+      "url": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
+      "status": 200,
+      "type": "Image"
+    }
+  ]
+}

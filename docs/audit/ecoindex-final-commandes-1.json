@@ -1,0 +1,80 @@
+{
+  "version": "final",
+  "pass": 1,
+  "view": "commandes",
+  "dom": 108,
+  "requests": 9,
+  "networkBytes": 184088,
+  "htmlBytesAdded": 719,
+  "bytes": 184807,
+  "score": 89.61656232562535,
+  "grade": "A",
+  "tool": "ecoindex@2.0.1",
+  "reference": "ecoindex_reference@1.0.2",
+  "estimate": true,
+  "records": [
+    {
+      "requestId": "567C0617F2E4D62C2377B4032326B59D",
+      "bytes": 969,
+      "url": "http://127.0.0.1:4206/",
+      "status": 200,
+      "type": "Document"
+    },
+    {
+      "requestId": "38548.4",
+      "bytes": 3585,
+      "url": "http://127.0.0.1:4206/assets/index-D6bLqkZe.css",
+      "status": 200,
+      "type": "Stylesheet"
+    },
+    {
+      "requestId": "38548.2",
+      "bytes": 67624,
+      "url": "http://127.0.0.1:4206/fonts/fraunces-latin-variable.woff2",
+      "status": 200,
+      "type": "Font"
+    },
+    {
+      "requestId": "38548.3",
+      "bytes": 69866,
+      "url": "http://127.0.0.1:4206/assets/index-DZcwbFA4.js",
+      "status": 200,
+      "type": "Script"
+    },
+    {
+      "requestId": "38548.8",
+      "bytes": 37252,
+      "url": "http://127.0.0.1:4206/fonts/dm-sans-latin-variable.woff2",
+      "status": 200,
+      "type": "Font"
+    },
+    {
+      "requestId": "38548.10",
+      "bytes": 2066,
+      "url": "http://127.0.0.1:4206/assets/ShopPage-wdAJxIll.js",
+      "status": 200,
+      "type": "Script"
+    },
+    {
+      "requestId": "38548.11",
+      "bytes": 157,
+      "url": "http://127.0.0.1:4206/favicon.ico",
+      "status": 404,
+      "type": "Other"
+    },
+    {
+      "requestId": "38548.12",
+      "bytes": 1310,
+      "url": "http://127.0.0.1:4206/assets/OrdersPage-tAkTxvmU.js",
+      "status": 200,
+      "type": "Script"
+    },
+    {
+      "requestId": "38548.13",
+      "bytes": 1259,
+      "url": "http://127.0.0.1:4206/data/orders.json",
+      "status": 200,
+      "type": "Fetch"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "version": "avant",
+  "pass": 2,
+  "view": "commandes",
+  "dom": 105,
+  "requests": 15,
+  "networkBytes": 487991,
+  "htmlBytesAdded": 607,
+  "bytes": 488598,
+  "score": 87.45253102501317,
+  "grade": "A",
+  "tool": "ecoindex@2.0.1",
+  "reference": "ecoindex_reference@1.0.2",
+  "estimate": true,
+  "records": [
+    {
+      "requestId": "AB0B69A458C169475A80212D527691A5",
+      "bytes": 857,
+      "url": "http://127.0.0.1:4200/",
+      "status": 200,
+      "type": "Document"
+    },
+    {
+      "requestId": "35804.3",
+      "bytes": 4631,
+      "url": "http://127.0.0.1:4200/assets/index-2JN1xRDZ.css",
+      "status": 200,
+      "type": "Stylesheet"
+    },
+    {
+      "requestId": "35804.2",
+      "bytes": 70887,
+      "url": "http://127.0.0.1:4200/assets/index-DKvxSArv.js",
+      "status": 200,
+      "type": "Script"
+    },
+    {
+      "requestId": "35804.6",
+      "bytes": 1102,
+      "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap",
+      "status": 200,
+      "type": "Stylesheet"
+    },
+    {
+      "requestId": "35804.22",
+      "bytes": 157,
+      "url": "http://127.0.0.1:4200/favicon.ico",
+      "status": 404,
+      "type": "Other"
+    },
+    {
+      "requestId": "35804.21",
+      "bytes": 1046,
+      "url": "http://127.0.0.1:4200/data/products.json",
+      "status": 200,
+      "type": "Fetch"
+    },
+    {
+      "requestId": "35804.8",
+      "bytes": 36964,
+      "url": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+      "status": 200,
+      "type": "Font"
+    },
+    {
+      "requestId": "35804.17",
+      "bytes": 67341,
+      "url": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA.woff2",
+      "status": 200,
+      "type": "Font"
+    },
+    {
+      "requestId": "35804.24",
+      "bytes": 65572,
+      "url": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=900&q=85",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "35804.25",
+      "bytes": 6680,
+      "url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "35804.23",
+      "bytes": 13259,
+      "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "35804.26",
+      "bytes": 87447,
+      "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "35804.28",
+      "bytes": 50323,
+      "url": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "requestId": "35804.29",
+      "bytes": 1259,
+      "url": "http://127.0.0.1:4200/data/orders.json",
+      "status": 200,
+      "type": "Fetch"
+    },
+    {
+      "requestId": "35804.27",
+      "bytes": 80466,
+      "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=85",
+      "status": 200,
+      "type": "Image"
+    }
+  ]
+}
