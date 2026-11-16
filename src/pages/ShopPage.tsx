@@ -1,6 +1,12 @@
 import { ProductList } from '../components/ProductList'
 import CartPanel from '../components/CartPanel'
 import { useCart } from '../features/cart/store'
+import { useProducts } from '../features/products/queries'
+
+function ProductCount() {
+  const { data } = useProducts()
+  return <span className="heading-count">{data ? String(data.length).padStart(2, '0') : '…'}</span>
+}
 
 export default function ShopPage() {
   const addToCart = useCart(state => state.addToCart)
@@ -25,7 +31,7 @@ export default function ShopPage() {
           <div className="section-heading">
             <div>
               <p className="eyebrow">Nos essentiels</p>
-              <h2 id="catalog-title">À découvrir <span className="heading-count">06</span></h2>
+              <h2 id="catalog-title">À découvrir <ProductCount /></h2>
             </div>
             <span className="sort-label">Sélection du studio <span aria-hidden="true">⌄</span></span>
           </div>

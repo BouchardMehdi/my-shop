@@ -58,6 +58,20 @@ isOneToOne: false
                   Relationships: [
 
                   ]
+                },"profiles": {
+                  Row: {
+                    "email": string | null,"id": string,"role": string
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "email"?: string | null,"id": string,"role"?: string
+                  }
+                  Update: {
+                    "email"?: string | null,"id"?: string,"role"?: string
+                  }
+                  Relationships: [
+
+                  ]
                 }
           }
           Views: {

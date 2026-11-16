@@ -15,7 +15,10 @@ export default function AuthProvider({ children }: PropsWithChildren) {
     const update: (session: AuthValue['session']) => void = session => {
       if (!active) return
       const nextUserId = session?.user.id ?? null
-      if (nextUserId !== userId) queryClient.removeQueries({ queryKey: ['orders'] })
+      if (nextUserId !== userId) {
+        queryClient.removeQueries({ queryKey: ['orders'] })
+        queryClient.removeQueries({ queryKey: ['profiles'] })
+      }
       userId = nextUserId
       setAuth({ session, booted: true, error: null })
     }
