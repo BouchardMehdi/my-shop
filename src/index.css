@@ -1,4 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap');
+/* Latin subsets include French accents. One variable file per family. */
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/dm-sans-latin-variable.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: url('/fonts/fraunces-latin-variable.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+}
 
 :root {
   --text: #6b6375;
@@ -113,11 +128,11 @@ code {
 }
 
 :root {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Sans', system-ui, 'Segoe UI', sans-serif;
   color: #202925;
   background: #fffefa;
   color-scheme: light;
-  --body: 'DM Sans', sans-serif;
+  --body: 'DM Sans', system-ui, 'Segoe UI', sans-serif;
   --display: 'Fraunces', Georgia, serif;
   --ink: #202925;
   --muted: #78817b;
