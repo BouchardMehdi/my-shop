@@ -1,0 +1,19 @@
+Fonts distributed under the SIL Open Font License 1.1.
+The original WOFF2 files are unmodified. Licenses are included alongside them.
+Downloaded from Google Fonts on 2026-11-16.
+
+DM Sans - Latin, normal, variable weight
+Used CSS weights: 400, 500, 700. A single variable file serves these weights.
+https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2
+License: OFL-DM-Sans.txt
+https://github.com/google/fonts/tree/main/ofl/dmsans
+
+Fraunces - Latin, normal, variable optical size and weight
+CSS weight range: 400-500, matching the previous Google Fonts import.
+https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA.woff2
+License: OFL-Fraunces.txt
+https://github.com/google/fonts/tree/main/ofl/fraunces
+
+The Latin subsets include French accents and ligatures. Other scripts use
+the system fallback fonts instead of downloading additional subsets.
+Both faces use font-display: swap. Only the regular title font is preloaded.
