@@ -11,9 +11,9 @@ export function OrderList() {
 
   switch (result.status) {
     case 'idle':
-      return <p className="fetch-message">Préparation de vos commandes…</p>
+      return <p className="fetch-message" role="status">Préparation de vos commandes…</p>
     case 'loading':
-      return <p className="fetch-message">Chargement des commandes…</p>
+      return <p className="fetch-message" role="status">Chargement des commandes…</p>
     case 'success': {
       const byStatus = groupOrdersByStatus(result.data)
       return (
@@ -27,8 +27,8 @@ export function OrderList() {
             ))}
           </div>
           <div className="order-list">
-            {result.data.map((order, index) => (
-              <article className="order-row" key={order.id} style={{ animationDelay: `${index * 70}ms` }}>
+            {result.data.map((order) => (
+              <article className="order-row" key={order.id}>
                 <div className="order-number">
                   <span>Commande</span>
                   <strong>#{order.id}</strong>
@@ -53,7 +53,7 @@ export function OrderList() {
       )
     }
     case 'error':
-      return <p className="fetch-message error-message">Impossible de charger les commandes : {result.message}</p>
+      return <p className="fetch-message error-message" role="alert">Impossible de charger les commandes : {result.message}</p>
     default: {
       const exhaustive: never = result
       return exhaustive
