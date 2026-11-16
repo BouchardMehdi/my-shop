@@ -27,8 +27,8 @@ export function OrderList() {
             ))}
           </div>
           <div className="order-list">
-            {result.data.map((order, index) => (
-              <article className="order-row" key={order.id} style={{ animationDelay: `${index * 70}ms` }}>
+            {result.data.map((order) => (
+              <article className="order-row" key={order.id}>
                 <div className="order-number">
                   <span>Commande</span>
                   <strong>#{order.id}</strong>
