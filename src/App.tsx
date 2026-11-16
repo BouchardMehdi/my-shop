@@ -3,6 +3,7 @@ import { Link, NavLink, Route, Routes, useLocation } from 'react-router-dom'
 import CartLink from './components/CartLink'
 import AuthControls from './features/auth/AuthControls'
 import ProtectedRoute from './features/auth/ProtectedRoute'
+import AdminRoute from './features/auth/AdminRoute'
 import './App.css'
 
 const ShopPage = lazy(() => import('./pages/ShopPage'))
@@ -10,6 +11,8 @@ const OrdersPage = lazy(() => import('./pages/OrdersPage'))
 const AuthPage = lazy(() => import('./pages/AuthPage'))
 const AccountPage = lazy(() => import('./pages/AccountPage'))
 const CheckoutPage = lazy(() => import('./pages/CheckoutPage'))
+const AdminCatalogPage = lazy(() => import('./pages/AdminCatalogPage'))
+const AdminOrdersPage = lazy(() => import('./pages/AdminOrdersPage'))
 
 function Page({ children }: PropsWithChildren) {
   return <Suspense fallback={<p className="fetch-message" role="status">Chargement de la page...</p>}>{children}</Suspense>
@@ -18,6 +21,7 @@ function Page({ children }: PropsWithChildren) {
 const titles: Record<string, string> = {
   '/': 'Boutique', '/orders': 'Commandes', '/account': 'Mon compte',
   '/login': 'Connexion', '/signup': 'Inscription', '/checkout': 'Passer commande',
+  '/admin': 'Administration du catalogue', '/admin/orders': 'Administration des commandes',
 }
 
 function App() {
@@ -62,6 +66,8 @@ function App() {
           <Route path="/account" element={<ProtectedRoute><Page><AccountPage /></Page></ProtectedRoute>} />
           <Route path="/checkout" element={<ProtectedRoute><Page><CheckoutPage /></Page></ProtectedRoute>} />
           <Route path="/orders" element={<ProtectedRoute><Page><OrdersPage /></Page></ProtectedRoute>} />
+          <Route path="/admin" element={<AdminRoute><Page><AdminCatalogPage /></Page></AdminRoute>} />
+          <Route path="/admin/orders" element={<AdminRoute><Page><AdminOrdersPage /></Page></AdminRoute>} />
           <Route path="*" element={<section className="auth-page"><h1>Page introuvable</h1><Link to="/">Retour à la boutique</Link></section>} />
         </Routes>
       </main>

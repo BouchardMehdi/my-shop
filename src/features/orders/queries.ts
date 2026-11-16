@@ -2,6 +2,7 @@ import { useQuery } from '@tanstack/react-query'
 import { getSupabase } from '../../lib/supabase'
 import type { Order, OrderStatus } from '../../types/orders'
 import { useAuth } from '../auth/context'
+import { useProfile } from '../auth/queries'
 
 function parseStatus(status: string): OrderStatus {
   switch (status) {
@@ -10,17 +11,22 @@ function parseStatus(status: string): OrderStatus {
   }
 }
 
-export function useOrders() {
+export function useOrders(scope: 'own' | 'admin' = 'own') {
   const { session, booted } = useAuth()
+  const profile = useProfile()
   const userId = session?.user.id
   return useQuery({
-    queryKey: ['orders', 'user', userId],
-    enabled: booted && !!userId,
+    queryKey: ['orders', scope === 'admin' ? 'admin' : 'user', userId],
+    enabled: booted && !!userId && (scope === 'own' || profile.data?.role === 'admin'),
     staleTime: 15_000,
     queryFn: async ({ signal }): Promise<Order[]> => {
-      const { data, error } = await getSupabase().from('orders')
+      let query = getSupabase().from('orders')
         .select('*, order_items(product_id, quantity, product_name, unit_price)')
-        .order('created_at', { ascending: false }).abortSignal(signal)
+        .order('created_at', { ascending: false })
+      // Admins can read everyone through RLS; their personal page still shows
+      // their own purchases. This filter is presentation, not authorization.
+      if (scope === 'own' && userId) query = query.eq('user_id', userId)
+      const { data, error } = await query.abortSignal(signal)
       if (error) throw new Error(error.message)
       return data.map(row => ({
         id: row.id, customerEmail: row.customer_email ?? '',
