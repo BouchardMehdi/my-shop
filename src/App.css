@@ -3,10 +3,10 @@
 .wordmark { display: inline-flex; align-items: center; gap: 10px; width: fit-content; color: var(--ink); text-decoration: none; font-size: 15px; font-weight: 700; }
 .wordmark-mark { display: grid; width: 30px; height: 30px; place-items: center; border-radius: 50%; background: var(--coral); color: white; font-family: var(--display); font-size: 18px; font-style: italic; }
 .main-nav { display: flex; align-items: center; justify-content: center; gap: 35px; height: 100%; }
-.nav-link { position: relative; height: 100%; padding: 0; border: 0; background: none; color: var(--muted); font: inherit; font-size: 13px; cursor: pointer; }
+.nav-link { position: relative; height: 100%; display: inline-flex; align-items: center; text-decoration: none; padding: 0; border: 0; background: none; color: var(--muted); font: inherit; font-size: 13px; cursor: pointer; }
 .nav-link.is-active { color: var(--ink); }
 .nav-link.is-active::after { position: absolute; right: 0; bottom: -1px; left: 0; height: 2px; background: var(--coral); content: ''; }
-.cart-button { justify-self: end; display: inline-flex; align-items: center; gap: 10px; padding: 8px 0 8px 12px; border: 0; background: none; color: var(--ink); font: inherit; font-size: 13px; cursor: pointer; }
+.cart-button { justify-self: end; display: inline-flex; align-items: center; gap: 10px; padding: 8px 0 8px 12px; border: 0; background: none; color: var(--ink); text-decoration: none; font: inherit; font-size: 13px; cursor: pointer; }
 .cart-count { display: grid; min-width: 25px; height: 25px; padding: 0 6px; place-items: center; border-radius: 50%; background: var(--ink); color: white; font-size: 11px; }
 .intro-band { min-height: 260px; margin: 0 -54px; padding: 48px 54px 43px; display: flex; align-items: center; justify-content: space-between; background: var(--green-wash); }
 .eyebrow { display: flex; align-items: center; gap: 9px; margin: 0 0 15px; color: var(--muted); font-size: 10px; font-weight: 700; text-transform: uppercase; }
@@ -140,3 +140,14 @@
   .product-image-wrap { aspect-ratio: 1.35 / 1; }
   .product-title-row { align-items: baseline; flex-direction: row; }
 }
+.auth-controls { display: flex; justify-content: flex-end; align-items: center; flex-wrap: wrap; gap: 10px; padding: 12px 0; font-size: 13px; }
+.auth-controls > [role="alert"] { flex-basis: 100%; text-align: right; }
+.account-link { color: var(--green); overflow-wrap: anywhere; }
+.auth-page { max-width: 540px; margin: 0 auto; padding: 60px 0 80px; }
+.auth-page h1 { margin-bottom: 24px; font-size: 38px; line-height: 1.15; }
+.auth-page > p { margin-bottom: 18px; }
+.auth-form { display: grid; gap: 12px; }
+.auth-form input { min-width: 0; width: 100%; border: 1px solid var(--muted); border-radius: 0; background: white; color: var(--ink); padding: 12px; font: inherit; font-size: 16px; }
+.auth-form input:focus-visible { outline: 2px solid var(--coral); outline-offset: 3px; }
+.auth-form .add-button { justify-content: center; min-height: 44px; margin-top: 10px; font-size: 15px; }
+.auth-switch { margin-top: 22px; }

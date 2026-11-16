@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
 import { getSupabase } from '../../lib/supabase'
 import type { Order, OrderStatus } from '../../types/orders'
+import { useAuth } from '../auth/context'
 
 function parseStatus(status: string): OrderStatus {
   switch (status) {
@@ -10,8 +11,11 @@ function parseStatus(status: string): OrderStatus {
 }
 
 export function useOrders() {
+  const { session, booted } = useAuth()
+  const userId = session?.user.id
   return useQuery({
-    queryKey: ['orders'],
+    queryKey: ['orders', 'user', userId],
+    enabled: booted && !!userId,
     staleTime: 15_000,
     queryFn: async ({ signal }): Promise<Order[]> => {
       const { data, error } = await getSupabase().from('orders')
