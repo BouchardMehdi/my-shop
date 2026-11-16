@@ -1,3 +1,4 @@
+import { useProducts } from '../features/products/queries'
 import { useCallback } from 'react'
 import { ProductList } from '../components/ProductList'
 import type { Cart, CartAction } from '../types/ecommerce'
@@ -8,17 +9,14 @@ type ShopPageProps = {
   onCartAction: (action: CartAction) => void
 }
 
-function formatProductName(productId: string): string {
-  return productId
-    .split('-')
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ')
-}
-
 export default function ShopPage({ cart, itemCount, onCartAction }: ShopPageProps) {
   const handleAdd = useCallback((productId: string) => {
     onCartAction({ type: 'addToCart', productId, quantity: 1 })
   }, [onCartAction])
+
+  const { data: products = [] } = useProducts()
+  const formatProductName = (productId: string) =>
+    products.find(product => product.id === productId)?.name ?? 'Produit'
 
   return (
     <>
@@ -73,7 +71,7 @@ export default function ShopPage({ cart, itemCount, onCartAction }: ShopPageProp
                   <div className="quantity-control" aria-label={`Quantité ${line.quantity}`}>
                     <button aria-label={`Retirer ${formatProductName(line.productId)} du panier`} onClick={() => onCartAction({ type: 'removeFromCart', productId: line.productId })}>×</button>
                     <span>{line.quantity}</span>
-                    <button aria-label={`Ajouter un article ${line.productId}`} onClick={() => onCartAction({ type: 'addToCart', productId: line.productId, quantity: 1 })}>+</button>
+                    <button aria-label={`Ajouter un article ${formatProductName(line.productId)}`} onClick={() => onCartAction({ type: 'addToCart', productId: line.productId, quantity: 1 })}>+</button>
                   </div>
                 </div>
               ))}

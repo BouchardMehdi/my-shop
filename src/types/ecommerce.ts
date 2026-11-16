@@ -1,7 +1,6 @@
-import { useEffect, useState } from 'react'
-
 export interface Product {
   id: string
+  slug: string
   name: string
   category: string
   description: string
@@ -69,35 +68,4 @@ export function firstItem<T>(items: T[]): T | undefined {
 
 export function getProductField<T, K extends keyof T>(products: T[], key: K): T[K][] {
   return products.map((product) => product[key])
-}
-
-async function fetchData<T>(url: string): Promise<T> {
-  const response = await fetch(url)
-  if (!response.ok) throw new Error(`HTTP ${response.status}`)
-  return response.json() as Promise<T>
-}
-
-export function useFetch<T>(url: string): FetchResult<T> {
-  const [state, setState] = useState<{ url: string; result: FetchResult<T> }>({
-    url: '',
-    result: { status: 'idle' },
-  })
-
-  useEffect(() => {
-    let active = true
-
-    fetchData<T>(url)
-      .then((data) => {
-        if (active) setState({ url, result: { status: 'success', data } })
-      })
-      .catch((error: unknown) => {
-        if (active) setState({ url, result: { status: 'error', message: String(error) } })
-      })
-
-    return () => {
-      active = false
-    }
-  }, [url])
-
-  return state.url === url ? state.result : { status: 'loading' }
 }

@@ -1,6 +1,5 @@
 import { memo } from 'react'
-import type { Product } from '../types/ecommerce'
-import { useFetch } from '../types/ecommerce'
+import { useProducts } from '../features/products/queries'
 
 interface ProductListProps {
   onAdd: (productId: string) => void
@@ -9,12 +8,10 @@ interface ProductListProps {
 const euro = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' })
 
 export const ProductList = memo(function ProductList({ onAdd }: ProductListProps) {
-  const result = useFetch<Product[]>('/data/products.json')
+  const result = useProducts()
 
   switch (result.status) {
-    case 'idle':
-      return <p className="fetch-message" role="status">Préparation de la sélection…</p>
-    case 'loading':
+    case 'pending':
       return <p className="fetch-message" role="status">Les pièces arrivent…</p>
     case 'success':
       return (
@@ -71,7 +68,7 @@ export const ProductList = memo(function ProductList({ onAdd }: ProductListProps
 
       )
     case 'error':
-      return <p className="fetch-message error-message" role="alert">Impossible de charger la sélection : {result.message}</p>
+      return <p className="fetch-message error-message" role="alert">Impossible de charger la sélection : {result.error.message}</p>
     default: {
       const exhaustive: never = result
       return exhaustive
