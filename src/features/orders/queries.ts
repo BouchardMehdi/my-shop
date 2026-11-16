@@ -19,13 +19,13 @@ export function useOrders() {
     staleTime: 15_000,
     queryFn: async ({ signal }): Promise<Order[]> => {
       const { data, error } = await getSupabase().from('orders')
-        .select('*, order_items(product_id, quantity)')
+        .select('*, order_items(product_id, quantity, product_name, unit_price)')
         .order('created_at', { ascending: false }).abortSignal(signal)
       if (error) throw new Error(error.message)
       return data.map(row => ({
         id: row.id, customerEmail: row.customer_email ?? '',
         total: row.total, status: parseStatus(row.status), createdAt: row.created_at,
-        items: row.order_items.map(item => ({ productId: item.product_id, quantity: item.quantity })),
+        items: row.order_items.map(item => ({ productId: item.product_id, quantity: item.quantity, productName: item.product_name, unitPrice: item.unit_price })),
       }))
     },
   })

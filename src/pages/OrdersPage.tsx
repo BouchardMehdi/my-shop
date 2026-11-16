@@ -5,7 +5,7 @@ export default function OrdersPage() {
     <section className="orders-page">
       <div className="orders-intro">
         <p className="eyebrow"><span className="eyebrow-dot" /> Votre espace</p>
-        <h1>Les commandes <em>en cours.</em></h1>
+        <h1>Mes <em>commandes.</em></h1>
         <p>Suivez les dernières nouvelles de vos pièces préférées.</p>
       </div>
       <OrderList />

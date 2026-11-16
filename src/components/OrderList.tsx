@@ -45,6 +45,9 @@ export function OrderList() {
                   <strong>{euro.format(order.total)}</strong>
                 </div>
                 <span className={`order-status status-${order.status}`}>{labelStatus(order.status)}</span>
+                <ul className="order-items" aria-label={`Articles de la commande ${order.id}`}>
+                  {order.items.map(item => <li key={item.productId}>{item.productName || 'Produit'} × {item.quantity} — {euro.format(item.unitPrice * item.quantity)}</li>)}
+                </ul>
               </article>
             ))}
           </div>

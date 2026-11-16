@@ -6,14 +6,14 @@ export type Database = {
           Tables: {
             "order_items": {
                   Row: {
-                    "id": string,"order_id": string,"product_id": string,"quantity": number
+                    "id": string,"order_id": string,"product_id": string,"product_name": string,"quantity": number,"unit_price": number
                   }
                   ComputedFields: never
                   Insert: {
-                    "id"?: string,"order_id": string,"product_id": string,"quantity"?: number
+                    "id"?: string,"order_id": string,"product_id": string,"product_name"?: string,"quantity"?: number,"unit_price"?: number
                   }
                   Update: {
-                    "id"?: string,"order_id"?: string,"product_id"?: string,"quantity"?: number
+                    "id"?: string,"order_id"?: string,"product_id"?: string,"product_name"?: string,"quantity"?: number,"unit_price"?: number
                   }
                   Relationships: [
                     {
@@ -64,7 +64,9 @@ isOneToOne: false
             [_ in never]: never
           }
           Functions: {
-            [_ in never]: never
+            "place_order":
+{ Args: { "p_items": Json }; Returns: string
+                           }
           }
           Enums: {
             [_ in never]: never

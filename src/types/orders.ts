@@ -5,7 +5,7 @@ export type OrderStatus = 'pending' | 'paid' | 'shipped' | 'cancelled'
 export interface Order {
   id: string
   customerEmail: string
-  items: CartLine[]
+  items: (CartLine & { productName: string; unitPrice: number })[]
   total: number
   status: OrderStatus
   createdAt: string
