@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useCart } from '../features/cart/store'
 import { useProducts } from '../features/products/queries'
 import { usePlaceOrder } from '../features/orders/mutations'
+import { computeCartTotal } from '../features/cart/cart'
 
 const euro = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' })
 
@@ -15,7 +16,7 @@ export default function CheckoutPage() {
   const lines = Object.values(cart)
   const selection = lines.map(line => ({ ...line, product: products.data?.find(product => product.id === line.productId) }))
   const unavailable = selection.some(line => !line.product?.inStock)
-  const total = selection.reduce((sum, line) => sum + Math.round((line.product?.price ?? 0) * 100) * line.quantity, 0) / 100
+  const total = computeCartTotal(selection)
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()

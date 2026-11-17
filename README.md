@@ -134,6 +134,74 @@ Utiliser ensuite l'URL API et la clé publique de cet environnement dans
 opérations propres à chaque environnement ; consulter le guide du jalon 4.
 Ne pas réinitialiser le projet de démonstration partagé pour les tests.
 
+## Tests automatisés - séance 5
+
+Les quatre étapes de tests sont ajoutées sur `test/automated-tests`, puis
+seront disponibles sur `main` après fusion. Les branches de référence
+`version/performance` et `version/supabase` conservent leur état antérieur.
+Les commandes suivantes s'exécutent sur la version contenant ces quatre commits.
+
+```bash
+npm ci
+npm test
+npm run test:coverage
+npx playwright install chromium
+npm run test:e2e
+```
+
+- **14 tests unitaires** : total du panier, recherche et règles du store Zustand.
+- **11 tests de composants RTL** : carte produit, recherche par URL et connexion.
+- **1 parcours Playwright Chromium** : catalogue, ajout, quantité et panier après F5.
+- `npm run test:watch` relance Vitest à la sauvegarde ; `npm run test:e2e:ui`
+  ouvre le mode interactif et `npm run test:e2e:report` affiche le rapport E2E.
+
+Vitest et la couverture fonctionnent avec un client Supabase simulé pour les
+pages, sans compte ni connexion réseau. Le parcours Playwright utilise la vraie
+application et le vrai catalogue : `.env.local` doit être configuré, Internet
+disponible et au moins un produit en stock. Vite démarre automatiquement si
+aucun serveur de ce projet n'écoute sur 5173. Le test ne crée aucune commande.
+
+Les tests ont été vus rouges sur des erreurs ciblées, puis verts après
+restauration. Les explications et preuves figurent dans les guides :
+[unitaires](docs/tests/step-1.md), [composants](docs/tests/step-2.md),
+[E2E](docs/tests/step-3.md) et [couverture](docs/tests/step-4.md).
+
+### Couverture mesurée le 17 novembre 2026 (Europe/Paris)
+
+Mesure `npm run test:coverage`, Vitest **5.1.0**, `@vitest/coverage-v8` **5.1.0**,
+Node **22.19.0**, 25 tests réussis, **37 fichiers applicatifs pris en compte**.
+
+| Indicateur | Couverture | Éléments couverts / total |
+| --- | ---: | ---: |
+| Lignes | **23,71 %** | 106 / 447 |
+| Instructions | 23,56 % | 131 / 556 |
+| Branches | 21,27 % | 90 / 423 |
+| Fonctions | 26,31 % | 45 / 171 |
+
+Le périmètre inclut `src/**/*.{ts,tsx}`, y compris les fichiers non exécutés
+par les tests. Sont exclus les fichiers de tests, les déclarations `.d.ts`,
+`src/test/**` et `src/main.tsx`. Cette mesure concerne Vitest ; les exécutions
+Playwright et les tests SQL ne sont pas agrégés à ces pourcentages.
+
+Le total du panier, la recherche et ProductCard atteignent 100 % des lignes,
+et le store 96,55 %. Plusieurs autres fichiers sont à 0 %, dont les écrans
+admin, AuthProvider et le passage de commande. Ce premier état sert à repérer
+les risques et à suivre la tendance avec le même périmètre. Aucun seuil
+arbitraire n'est ajouté pour valider artificiellement le TP.
+
+**Prochain test prioritaire proposé au binôme : `usePlaceOrder` dans
+`src/features/orders/mutations.ts`, à 0 % des lignes (0/16).** Simuler un
+refus de la RPC `place_order` : l'erreur doit remonter, le panier doit rester
+intact et aucune invalidation de succès ne doit être déclenchée. Ce risque
+touche directement le parcours de commande.
+
+Après génération, ouvrir `coverage/index.html` dans le navigateur pour
+explorer les fichiers et les lignes non couvertes. Les rapports terminal,
+HTML, LCOV (`coverage/lcov.info`) et JSON sont générés dans `coverage/`,
+ignoré par Git. La [synthèse datée](docs/tests/coverage-2026-11-17.json) est
+versionnée pour garder les valeurs mesurées. La couverture indique du code
+exécuté ; elle ne prouve pas à elle seule que chaque comportement est vérifié.
+
 ## Vérifications techniques
 
 ```bash

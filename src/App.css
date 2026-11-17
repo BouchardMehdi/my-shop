@@ -24,6 +24,11 @@
 .heading-count { margin-left: 4px; color: var(--coral); font-family: var(--body); font-size: 10px; font-weight: 700; vertical-align: super; }
 .sort-label { padding-bottom: 3px; color: var(--muted); font-size: 11px; }
 .sort-label span { margin-left: 8px; color: var(--ink); }
+.catalog-search { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; font-size: 14px; }
+.catalog-search label { flex-basis: 100%; }
+.catalog-search input { flex: 1 1 220px; min-width: 0; min-height: 44px; padding: 10px 12px; border: 1px solid var(--muted); background: white; color: var(--ink); font: inherit; font-size: 16px; }
+.catalog-search input:focus-visible { outline: 2px solid var(--coral); outline-offset: 3px; }
+.catalog-search .add-button { min-height: 44px; padding: 10px 14px; font-size: 13px; }
 .product-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 29px 20px; }
 .product-card { min-width: 0; }
 .product-image-wrap { position: relative; aspect-ratio: 1.32 / 1; overflow: hidden; background: #e9e8e0; }
