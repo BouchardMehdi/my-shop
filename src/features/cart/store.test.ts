@@ -1,13 +1,8 @@
-import { beforeEach, describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vitest'
 import { selectItemCount, useCart } from './store'
 
 const first = '10000000-0000-4000-8000-000000000001'
 const second = '20000000-0000-4000-8000-000000000002'
-
-beforeEach(() => {
-  useCart.getState().clearCart()
-  localStorage.clear()
-})
 
 describe('panier Zustand', () => {
   it('cumule la quantité sans dupliquer un produit déjà présent', () => {
