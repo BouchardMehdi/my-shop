@@ -1,0 +1,63 @@
+{
+  "measuredOn": "2026-11-17",
+  "timezone": "Europe/Paris",
+  "applicationCommit": "355a79b9af969b374da91ca76dfb5a3156f381d4",
+  "command": "npm run test:coverage",
+  "node": "v22.19.0",
+  "vitest": "5.1.0",
+  "provider": "v8",
+  "providerVersion": "5.1.0",
+  "unitTests": 14,
+  "componentTests": 11,
+  "reportedFiles": 37,
+  "scope": {
+    "include": [
+      "src/**/*.{ts,tsx}"
+    ],
+    "exclude": [
+      "src/**/*.test.{ts,tsx}",
+      "src/**/*.d.ts",
+      "src/test/**",
+      "src/main.tsx"
+    ],
+    "playwrightIncluded": false,
+    "sqlIncluded": false
+  },
+  "total": {
+    "lines": {
+      "total": 447,
+      "covered": 106,
+      "skipped": 0,
+      "pct": 23.71
+    },
+    "statements": {
+      "total": 556,
+      "covered": 131,
+      "skipped": 0,
+      "pct": 23.56
+    },
+    "branches": {
+      "total": 423,
+      "covered": 90,
+      "skipped": 0,
+      "pct": 21.27
+    },
+    "functions": {
+      "total": 171,
+      "covered": 45,
+      "skipped": 0,
+      "pct": 26.31
+    }
+  },
+  "nextPriority": {
+    "file": "src/features/orders/mutations.ts",
+    "function": "usePlaceOrder",
+    "lines": {
+      "total": 16,
+      "covered": 0,
+      "skipped": 0,
+      "pct": 0
+    },
+    "scenario": "A failed place_order RPC must expose the error and preserve the basket."
+  }
+}
