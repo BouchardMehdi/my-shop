@@ -13,6 +13,8 @@ dist-ssr
 *.local
 coverage/
 .vitest/
+playwright-report/
+test-results/
 
 # Local environment files
 .env*
