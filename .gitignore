@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 coverage/
+.vitest/
 
 # Local environment files
 .env*

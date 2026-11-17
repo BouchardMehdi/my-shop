@@ -2,10 +2,14 @@ import { ProductList } from '../components/ProductList'
 import CartPanel from '../components/CartPanel'
 import { useCart } from '../features/cart/store'
 import { useProducts } from '../features/products/queries'
+import { useSearchParams } from 'react-router-dom'
+import { filterProducts } from '../features/products/search'
 
 function ProductCount() {
   const { data } = useProducts()
-  return <span className="heading-count">{data ? String(data.length).padStart(2, '0') : '…'}</span>
+  const [searchParams] = useSearchParams()
+  const count = data ? filterProducts(data, searchParams.get('search') ?? '').length : undefined
+  return <span className="heading-count">{count === undefined ? '…' : String(count).padStart(2, '0')}</span>
 }
 
 export default function ShopPage() {

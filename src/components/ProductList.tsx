@@ -1,5 +1,7 @@
 import { memo } from 'react'
 import { useProducts } from '../features/products/queries'
+import { useSearchParams } from 'react-router-dom'
+import { filterProducts } from '../features/products/search'
 
 interface ProductListProps {
   onAdd: (productId: string) => void
@@ -9,15 +11,18 @@ const euro = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR'
 
 export const ProductList = memo(function ProductList({ onAdd }: ProductListProps) {
   const result = useProducts()
+  const [searchParams] = useSearchParams()
 
   switch (result.status) {
     case 'pending':
       return <p className="fetch-message" role="status">Les pièces arrivent…</p>
-    case 'success':
+    case 'success': {
+      const products = filterProducts(result.data, searchParams.get('search') ?? '')
+      if (products.length === 0) return <p className="fetch-message" role="status">Aucun produit ne correspond à votre recherche.</p>
       return (
 
           <div className="product-grid">
-            {result.data.map((product, index) => (
+            {products.map((product, index) => (
                 <article className="product-card" key={product.id}>
                   <div className="product-image-wrap">
                     <img
@@ -67,6 +72,7 @@ export const ProductList = memo(function ProductList({ onAdd }: ProductListProps
           </div>
 
       )
+    }
     case 'error':
       return <p className="fetch-message error-message" role="alert">Impossible de charger la sélection : {result.error.message}</p>
     default: {
